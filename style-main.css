@@ -1,0 +1,18 @@
+:root { /* Define global variables */
+  --response_color: #2CA02C;
+  --base_color: white;
+}
+
+#responsive-background {
+  background-color: var(--base_color);
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  cursor: None;
+  caret-color: transparent;
+ }
+
+@keyframes color_touch {
+    0%   { background-color: var(--response_color); }
+    100% { background-color: var(--base_color); }
+}
